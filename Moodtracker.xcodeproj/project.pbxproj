@@ -35,16 +35,6 @@
 			path = Moodtracker;
 			sourceTree = "<group>";
 		};
-		2D9A6DEC2DF5FEDB0044A26C /* MoodtrackerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoodtrackerTests;
-			sourceTree = "<group>";
-		};
-		2D9A6DF62DF5FEDB0044A26C /* MoodtrackerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MoodtrackerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				2D9A6DDC2DF5FEDA0044A26C /* Moodtracker */,
-				2D9A6DEC2DF5FEDB0044A26C /* MoodtrackerTests */,
-				2D9A6DF62DF5FEDB0044A26C /* MoodtrackerUITests */,
 				2D9A6DDB2DF5FEDA0044A26C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				2D9A6DEB2DF5FEDB0044A26C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2D9A6DEC2DF5FEDB0044A26C /* MoodtrackerTests */,
-			);
 			name = MoodtrackerTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				2D9A6DF52DF5FEDB0044A26C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				2D9A6DF62DF5FEDB0044A26C /* MoodtrackerUITests */,
 			);
 			name = MoodtrackerUITests;
 			packageProductDependencies = (
