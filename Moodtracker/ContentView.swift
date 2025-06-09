@@ -65,7 +65,7 @@ struct ContentView: View {
                 Button {
                     addItem()
                 } label: {
-                    Text("Add Item")
+                    Text("Save Mood")
                         .foregroundStyle(Color.white)
                         .background {
                             RoundedRectangle(cornerRadius: 25.0).fill(Color.blue)
